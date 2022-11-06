@@ -1,0 +1,75 @@
+.container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box;
+}
+div .button{
+    width: 1000px;
+    height: 40px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    vertical-align:middle;
+    display: flex;
+    justify-content: center;
+
+}
+a {
+  width: 100%;
+  padding: 9px 0px;
+}
+div .button a:link{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div .btn1 a{
+    border: 2px solid rgb(7, 181, 15);
+    color: rgb(7, 181, 15);
+}
+div .btn1 a:hover{
+    border:none;
+    background-color:rgb(7, 181, 15);
+    color: #fff;
+}
+div .btn2 a{
+    border: 2px solid rgb(38, 157, 205);
+    color: rgb(38, 157, 205);
+}
+div .btn2 a:hover{
+    border:none;
+    background-color:rgb(38, 157, 205) ;
+    color: #fff;
+}
+div .btn3 a{
+    border: 2px solid rgb(245, 229, 18);
+    color: rgb(245, 229, 18);
+}
+div .btn3 a:hover{
+    border:none;
+    background-color: rgb(245, 229, 18);
+    color: #fff;
+}
+div .btn4 a{
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+div .btn4 a:hover{
+    border:none;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+div .btn5 a{
+    border: 2px solid rgb(209, 206, 206);
+    color:#000;
+}
+div .btn5 a:hover{
+    border:none;
+    background-color: rgb(209, 206, 206);
+    color: #000;
+}
+
+
